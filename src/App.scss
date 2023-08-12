@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.full-size {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.flex-box {
+  display: flex;
+  &.row {
+    flex-direction: row;
+  }
+  &.column {
+    flex-direction: column;
+  }
+  &.distribute {
+    justify-content: space-between;
+  }
+}
