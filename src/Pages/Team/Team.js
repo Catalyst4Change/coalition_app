@@ -29,26 +29,7 @@ export const Team = () => {
             color: "white",
             width: "200px",
           }}
-        >
-          <Link to="/history">
-            <span>01. HISTORY</span>
-          </Link>
-          <Link to="/team">
-            <span>02. TEAM</span>
-          </Link>
-        </nav>
-        <div className="logo img-container">
-          <img
-            src={logo}
-            alt="LA Mountains Logo"
-            style={{
-              position: "absolute",
-              top: "1%",
-              left: "22%",
-              width: "30px",
-            }}
-          />
-        </div>
+        ></nav>
         <div className="copy img-container">
           <img
             src={team_text}

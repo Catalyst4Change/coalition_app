@@ -18,20 +18,6 @@ export const History = () => {
         </div>
       </section>
       <section className="foreground">
-        <Link to="/">
-          <div className="logo img-container">
-            <img
-              src={logo}
-              alt="LA Mountains Logo"
-              style={{
-                position: "absolute",
-                top: "1%",
-                left: "22%",
-                width: "30px",
-              }}
-            />
-          </div>
-        </Link>
         <div className="copy img-container">
           <img
             src={history_text}

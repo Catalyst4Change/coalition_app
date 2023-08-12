@@ -1,9 +1,8 @@
 import React from "react";
 import home_mnts from "../../Assets/home_mnts.png";
-import logo from "../../Assets/Logo.png";
 import LA_mtns_copy from "../../Assets/LOSANGELES MOUNTAINS copy.png";
 import "../../App.scss";
-import { Link } from "react-router-dom";
+import "./Home.scss";
 
 export const Home = () => {
   return (
@@ -18,29 +17,8 @@ export const Home = () => {
         </div>
       </section>
       <section className="foreground">
-        <div className="logo img-container">
-          <img
-            src={logo}
-            alt="LA Mountains Logo"
-            style={{
-              position: "absolute",
-              top: "1%",
-              left: "22%",
-              width: "30px",
-            }}
-          />
-        </div>
         <div className="copy img-container">
-          <img
-            src={LA_mtns_copy}
-            alt="text: Las Angeles Mountains"
-            style={{
-              position: "absolute",
-              top: "27%",
-              left: "26%",
-              width: "37%",
-            }}
-          />
+          <img src={LA_mtns_copy} alt="text: Las Angeles Mountains" />
         </div>
       </section>
     </main>
