@@ -10,7 +10,7 @@ function App() {
       <nav
         className="flex-box row distribute"
         style={{
-          position: "absolute",
+          position: "fixed",
           top: "2%",
           left: "68%",
           color: "white",

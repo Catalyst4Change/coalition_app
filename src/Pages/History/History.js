@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../Assets/Logo.png";
-import mtn_peak from "../../Assets/peak.png";
+import history_mtn from "../../Assets/history_mtn.png";
 import history_text from "../../Assets/history_text.png";
 import "../../App.scss";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ export const History = () => {
       <section className="background">
         <div className="img-container full-size">
           <img
-            src={mtn_peak}
+            src={history_mtn}
             alt="snow-covered mountains viewed from far away"
             id="mountains"
           />
