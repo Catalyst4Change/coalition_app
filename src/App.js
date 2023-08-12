@@ -22,7 +22,7 @@ function App() {
       </nav>
       <Home />
       <History />
-      {/*<Team /> */}
+      <Team />
     </main>
   );
 }

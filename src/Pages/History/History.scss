@@ -1,0 +1,18 @@
+#history {
+  position: relative;
+  .copy.img-container {
+    position: absolute;
+    top: 15%;
+    left: 21%;
+    width: 57%;
+  }
+  .carousel {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: rgba(10, 10, 60, 0.5);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+  }
+}
