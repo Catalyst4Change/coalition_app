@@ -9,20 +9,28 @@ function App() {
     <main id="app">
       <nav className="flex-box row distribute">
         <div className="logo img-container">
-          <img src={logo} alt="LA Mountains Logo" />
+          <a rel="noopener" href="#home-page">
+            <img src={logo} alt="LA Mountains Logo" />
+          </a>
         </div>
         <div className="links flex-box row distribute">
-          <a rel="noopener" target="_blank" href="#facebook_ads_example">
+          <a rel="noopener" href="#history-page">
             01. HISTORY
           </a>
-          <a rel="noopener" target="_blank" href="#facebook_ads_example">
+          <a rel="noopener" href="#team-page">
             02. TEAM
           </a>
         </div>
       </nav>
-      <Home />
-      <History />
-      <Team />
+      <div id="home-page" className="page">
+        <Home />
+      </div>
+      <div id="history-page" className="page">
+        <History />
+      </div>
+      <div id="team-page" className="page">
+        <Team />
+      </div>
     </main>
   );
 }

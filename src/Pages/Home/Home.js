@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import home_mnts from "../../Assets/home_mnts.png";
 import LA_mtns_copy from "../../Assets/LOSANGELES MOUNTAINS copy.png";
 import "../../App.scss";

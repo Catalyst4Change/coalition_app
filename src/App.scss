@@ -12,17 +12,14 @@
       width: 200px;
     }
   }
+  a {
+    scroll-behavior: smooth;
+  }
 }
 
 img {
   width: 100%;
   object-fit: cover;
-}
-
-.full-size {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
 }
 
 .flex-box {
@@ -39,4 +36,15 @@ img {
   .center {
     align-items: center;
   }
+}
+
+.full-size {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.page {
+  height: fit-content;
+  max-height: 75vw;
 }

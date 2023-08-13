@@ -1,0 +1,31 @@
+#team {
+  position: relative;
+  .copy.img-container {
+    position: absolute;
+    top: 8%;
+    left: 25%;
+    width: 57%;
+  }
+  .mountain-bar {
+    position: absolute;
+    top: 10em;
+    left: 0;
+    width: 100vw;
+    height: 30px;
+    background: rgb(65, 79, 107);
+    padding-left: 22vw;
+  }
+  .mountain-select {
+    all: unset;
+    height: 100%;
+    padding: 0 1%;
+  }
+  .schedule {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 300px;
+    background: rgba(225, 225, 225, 0.75);
+    padding: 1% 2%;
+  }
+}
